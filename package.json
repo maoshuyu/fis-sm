@@ -1,0 +1,31 @@
+{
+  "name": "fis-sm",
+  "version": "0.1.0",
+  "description": "适用于神马前端的FIS解决方案",
+  "main": "sm.js",
+  "engines" : {
+    "node" : ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "sm"
+  },
+  "bin" : {
+    "sm" : "bin/sm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maoshuyu/fis-sm.git"
+  },
+  "keywords": [
+    "fis"
+  ],
+  "author": "shuyu.mao@shenma-inc.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maoshuyu/fis-sm/issues"
+  },
+  "dependencies" : {
+    "fis" : "1.7.14",
+  },
+  "homepage": "https://github.com/maoshuyu/fis-sm"
+}
