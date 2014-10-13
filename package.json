@@ -1,6 +1,6 @@
 {
   "name": "fis-sm",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "适用于神马前端的FIS解决方案",
   "main": "sm.js",
   "engines": {
@@ -25,7 +25,7 @@
     "url": "https://github.com/maoshuyu/fis-sm/issues"
   },
   "dependencies" : {
-    "fis": "1.7.14"
+    "fis": "1.7.20"
   },
   "homepage": "https://github.com/maoshuyu/fis-sm"
 }
