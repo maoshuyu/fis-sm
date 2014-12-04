@@ -15,3 +15,43 @@ fis.require.prefixes = ['sm', 'fis'];
 
 // 覆盖fis kernel 的 release api
 fis.release = require('./lib/release.js');
+
+
+fis.config.merge({
+
+    roadmap : {
+        ext : {
+            less : 'css',
+            sass : 'css'
+        },
+        path : [
+            {
+                //前端模板
+                reg : '**.tmpl',
+                //当做类html文件处理，可以识别<img src="xxx"/>等资源定位标识
+                isJsLike : true,
+                //只是内嵌，不用发布
+                release : false
+            }
+        ]
+    },
+
+    modules : {
+        //fis插件配置
+        parser : {
+            //.tmpl后缀的文件使用fis-parser-utc插件编译
+            tmpl : 'utc',
+            less : 'less',
+            sass : 'sass'
+        }
+    },
+
+    settings : {
+        parser : {
+            'utc': {
+                variable: 'obj'
+            }
+        }
+    }
+});
+
