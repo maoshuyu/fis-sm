@@ -10,3 +10,5 @@ fis-sm
 ####升级fis版本，降低watch时cpu性能损耗
 ###0.3.0
 ####支持utc模版文件、less、sass编译
+###0.4.0
+####去掉less编译功能sass支持*.sass 和 *.scss文件，升级fis版本

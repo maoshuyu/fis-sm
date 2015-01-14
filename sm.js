@@ -21,8 +21,8 @@ fis.config.merge({
 
     roadmap : {
         ext : {
-            less : 'css',
-            sass : 'css'
+            sass : 'css',
+            scss : 'css'
         },
         path : [
             {
@@ -41,8 +41,8 @@ fis.config.merge({
         parser : {
             //.tmpl后缀的文件使用fis-parser-utc插件编译
             tmpl : 'utc',
-            less : 'less',
-            sass : 'sass'
+            sass : 'sass',
+            scss : 'scss'
         }
     },
 
