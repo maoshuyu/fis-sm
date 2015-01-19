@@ -42,7 +42,7 @@ fis.config.merge({
             //.tmpl后缀的文件使用fis-parser-utc插件编译
             tmpl : 'utc',
             sass : 'sass',
-            scss : 'scss'
+            scss : 'sass'
         }
     },
 
