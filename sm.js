@@ -56,3 +56,6 @@ fis.config.merge({
     }
 });
 
+// 排除sass框架文件
+fis.config.set('project.exclude', '**/_*.scss');
+
