@@ -20,3 +20,5 @@ fis-sm
 ####恢复sass依赖
 ###0.4.7
 ####排除sass框架文件
+###0.4.8
+####升级fis-parser-sass，解决scss文件编译问题
