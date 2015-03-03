@@ -24,3 +24,5 @@ fis-sm
 ####升级fis-parser-sass，解决scss文件编译问题
 ###0.4.9
 ####暂时降级fis-parser-sass,待解决上线服务安装问题再升级，彻底解决utc模板编译为字符串问题
+###0.5.0
+####升级fis-parser-sass,解决window上编译问题，暂时仍未解决服务器安装编译问题
