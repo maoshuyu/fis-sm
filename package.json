@@ -25,7 +25,7 @@
     "url": "https://github.com/maoshuyu/fis-sm/issues"
   },
   "dependencies": {
-    "fis": "1.9.2",
+    "fis": "1.9.25",
     "fis-parser-sass": "0.3.4",
     "fis-parser-utc": "0.0.2"
   },
