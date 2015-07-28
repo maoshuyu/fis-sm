@@ -28,3 +28,5 @@ fis-sm
 ####升级fis-parser-sass,解决window上编译问题，暂时仍未解决服务器安装编译问题
 ###0.5.1
 ####升级fis至1.9.25
+###0.5.2
+####升级fis-parser-sass至0.3.9,添加symbol图标配置

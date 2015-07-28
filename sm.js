@@ -55,6 +55,13 @@ fis.config.merge({
                 variable: 'obj'
             }
         }
+    },
+
+    // symbol 作为文本文件编译
+    project : {
+        fileType : {
+            text : 'symbol'
+        }
     }
 });
 
