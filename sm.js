@@ -46,6 +46,9 @@ fis.config.merge({
             //.sass 和 .scss 后缀的文件使用fis-parser-sass插件编译
             sass : 'sass',
             scss : 'sass'
+        },
+        postprocessor: {
+            css : 'autoprefixer'
         }
     },
 
@@ -53,6 +56,12 @@ fis.config.merge({
         parser : {
             'utc': {
                 variable: 'obj'
+            }
+        },
+        postprocessor : {
+            autoprefixer : {
+                "browsers": ["Android >= 2", "iOS >= 3"],
+                "cascade": true
             }
         }
     },
@@ -67,4 +76,3 @@ fis.config.merge({
 
 // 排除sass框架文件
 fis.config.set('project.exclude', '**/_*.scss');
-
